@@ -103,7 +103,7 @@ NULL 병합 연산자 ‘??’
 예시로 a ?? b라면 a가 null도 undefined도 아니면 a 아니면 b를 출력한다.    
 조금 깊게 || 연산자와의 차이점을 보자면 ||는 0까지도 포용할 수 있다는 것이다.     
 ex)    
-```let width = 0;```
+```let width = 0;```    
 ```alert(width ?? 100);```   
 ```alert(width || 100);```
     
